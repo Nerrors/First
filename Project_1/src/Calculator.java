@@ -5,7 +5,7 @@ import org.junit.runners.Parameterized;
 public class Calculator {
 
 public double add(double a, double b) {
-	return a+80;
+	return a+70;
 }
 /*public double add(double a, double b) {
 	return a+b;
