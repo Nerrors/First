@@ -52,9 +52,5 @@ public static void main(String[] args)  throws Exception{
 	int name6[] = {10, 20, 34, 40};
 	Arrays.fill(name6,40);
 	System.out.println(Arrays.toString(name6)); 
-
-}
-	
-
-	
+	}
 }
