@@ -1,16 +1,17 @@
 package Project_2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 
 public class ArrayClass {
 public static void main(String[] args)  throws Exception{
 
-	// Η μέθοδος asLIst χρησιμοποιείται για να επιστρέψει μια fixed-size list που υποστηρίζεται από τον καθορισμένο πίνακα.
+	// Η μέθοδος asList χρησιμοποιείται για να επιστρέψει μια fixed-size list που υποστηρίζεται από τον καθορισμένο πίνακα.
 	//*****Δηλαδή, αυτή η μέθοδος λειτουργεί ως γέφυρα μεταξύ των array-based και collection based APIs, σε συνδυασμό με την Collections.toArray().
 	try {
-	int name0[] = {10, 20, 30, 40};
-	List <Integer> list = Arrays.asList(name0);
+	Integer name0[] = {10, 20, 30, 40}; // Και όχι int, επειδή ένα collection δεν μπορεί να δεχτεί θεμελιώδεις τύπους.
+	List<Integer> list = Arrays.asList(name0);
 	System.out.println(list);
 	}
 	catch (NullPointerException e) {
@@ -24,7 +25,7 @@ public static void main(String[] args)  throws Exception{
 	Arrays.sort(name);
 	System.out.println("Found At Index" + Arrays.binarySearch(name, 2));
 	
-	// Η παρακάτω μέθοδος, συγκρίνει δύο πίνακες αν πέρασαν ως παράμετροι λεξικογραφικά.
+	//Η παρακάτω μέθοδος, συγκρίνει δύο πίνακες αν πέρασαν ως παράμετροι λεξικογραφικά.
 	
 	int name1[] = {10, 20, 34, 40};
 	int name2[] = {10, 20, 34, 40};
