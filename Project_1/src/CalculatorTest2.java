@@ -10,6 +10,7 @@ public class CalculatorTest2 {
 		double result = cal.add(20,40);
 		assertEquals(60, result, 0);
 	}
+
 }
 
 /* 
