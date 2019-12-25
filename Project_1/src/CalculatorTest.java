@@ -20,7 +20,7 @@ public class CalculatorTest {
 	//*****
 	@Parameters
 	public static Collection<Integer[]> getTest() {
-		Collection<Integer[]> col = Arrays.asList(new Integer[][] { {2,1,1}, {4,3,1}});
+		Collection<Integer[]> col = Arrays.asList(new Integer[][] { {2,1,1}, {4,3,1}, {5,4,1}});
 		return col; }
 	
 	// Η asList() επιστρέψει μια fixed-size list που υποστηρίζεται από τον καθορισμένο πίνακα.
