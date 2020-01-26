@@ -1,0 +1,28 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+AMD Ryzen 3 1200 Quad-Core Processor           , 4 cores, 7G,  Windows 10 , 64 bit Build 18362 (10.0.18362.329)
+Time: Tue Dec 10 20:35:48 2019 ?aeianei? ?na GTB elapsed time: 2279 seconds (0d 0h 37m 59s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000125466d7800):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=976, stack(0x0000001d45600000,0x0000001d45700000)]
+
+
+Current CompileTask:
+C2:2279908  615       4       sun.java2d.loops.GraphicsPrimitiveMgr$2::compare (39 bytes)
+
+Stack: [0x0000001d45600000,0x0000001d45700000]
+
+[error occurred during error reporting (printing native stack), id 0xc00000fd, EXCEPTION_STACK_OVERFLOW (0xc00000fd) at pc=0x00007ffc9d577e43]
+
+
