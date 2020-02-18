@@ -1,13 +1,14 @@
 package Basics;
 
 public class Printf {
-	
-public static void main (String[] args) {
-double price = 19.5;
-System.out.println ("Price using println" + price);
-System.out.printf("%1.3f",price);
+
+	public static void main(String[] args) {
+		double price = 19.5;
+		System.out.println("Price using println" + price);
+		System.out.printf("%1.3f", price);
+	}
 }
-}
+
 /*
  * %c -> Χαρακτήρας                                        |%2c, Μεμονωμένος χαρακτήρας με πεδίο 2 θέσεων.
  * %d -> Ακέραιος αριθμός                                  |%5d, Ένας ακέραιος με πεδίο 5 θέσεων.

@@ -1,7 +1,7 @@
 package Basics;
 
 public class ObjectClass {
-	Dateclass a;
+	DateClass a;
 	
 	public static void main (String[] args) {
 	

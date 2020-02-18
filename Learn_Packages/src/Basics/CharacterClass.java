@@ -4,8 +4,8 @@ public class CharacterClass {
 	public static void main(String []args){
 	     
 	      int number1 = 55; 
-	      String o = "jhkhkjh";
-	      String[] s2 = {"gdf", "dfdf"}; // Κατά την αρχικοποίηση, δεν χρειάζεται new.
+	      String o = "String";
+	      String[] s2 = {"Element1", "Element2"}; // Κατά την αρχικοποίηση, δεν χρειάζεται new.
 	      char a ='a';
 	       
 	      System.out.println(Character.isDigit(number1)); // Μπορούμε να χρησιμοποιήσουμε έτσι αυτές τις μεθόδους, επειδή είναι static.

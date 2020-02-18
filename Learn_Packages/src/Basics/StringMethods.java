@@ -17,23 +17,22 @@ public class StringMethods {
 			System.out.println("Το String a δεν είναι άδειο");
 		}
 		
-		if (a.equals(b) == true) { // είναι περιττό σε αυτή την περίπτωση το ==true. Συγκρίνει αυτή την συμβολοσειρά με ένα καθορισμένο αντικέιμενο (Object object);
+		if (a.equals(b) == true) { // Είναι περιττό σε αυτή την περίπτωση το ==true. Συγκρίνει αυτή την συμβολοσειρά με ένα καθορισμένο αντικέιμενο (Object object);
 			System.out.println("Το String a είναι ίδιο με το b.");
 		}
 		if (a.matches("Το Γεια ταιριάζει με το String a")) {
 			System.out.println("Το Γεια ταιριάζει με το String a");
 		}
-		if (a.endsWith("ς")) { // θέλει string.
+		if (a.endsWith("ς")) { // Θέλει string.
 			System.out.println ("Η συμβολοσειρά a τελειώνει με την συμβολοσειρά ς");
 		}
-		if (a.startsWith("Γεια")) { // θέλει string.
+		if (a.startsWith("Γεια")) { // Θέλει string.
 			System.out.println ("Η συμβολοσειρά a αρχίζει με την συμβολοσειρά Γειά");
 		}
-		if (a.startsWith("σου", 2)) { //  Με αυτόν τον αριθμό μπορούμε να ορίσουμε και ένα offset.
+		if (a.startsWith("σου", 2)) { // Με αυτόν τον αριθμό μπορούμε να ορίσουμε και ένα offset.
 			System.out.println ("Η συμβολοσειρά a αρχίζει με την συμβολοσειρά Γειά");
 		}
 		
-		//
 		
 		System.out.println(a.toUpperCase());
 		System.out.println(a.toLowerCase());
@@ -58,10 +57,5 @@ public class StringMethods {
 		for (int i =0; i <ar.length; i++) { // Δεν μπροούμε να χρησιμοποιήσουμε την μέθοδο .length() επειδή διαβάζει μόνο String arrays.
 			System.out.print (ar[i]);
 		}
-		
-
-	
-	
-	
-}
+	}
 }

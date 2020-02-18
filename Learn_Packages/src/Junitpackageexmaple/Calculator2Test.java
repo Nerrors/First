@@ -25,7 +25,7 @@ public class Calculator2Test {
 	
 	@Parameters
 	public static Collection <Integer[]> getPar() {
-		Integer [][] array2d =  { {4, 2, 2}, {5, 3, 2}, {10, 5, 5}, {6, 3, 3}, {7, 4, 3}  };
+		Integer [][] array2d =  { {4, 2, 2}, {5, 3, 2}, {10, 5, 5}, {6, 3, 3}  };
 		return Arrays.asList(array2d);
 	}
 	
